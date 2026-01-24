@@ -50,7 +50,7 @@ int main(){
         }
     }
     for(auto[l,r] : merged){
-        sol2 += (r-l+1);
+            sol2 += (r-l+1);
     }
 
     std::cout << sol << '\n';
